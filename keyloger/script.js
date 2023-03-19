@@ -6,7 +6,7 @@ function hack(){
     var desire = location.search.slice(1).split("&")[0].split("=")[1];
     if(desire == "admin"){
        var pass=prompt("Enter admin password");
-       if(pass === '01050739969'){
+       if(pass === 'admin'){
         var sds=localStorage.getItem('user_data')
         var bot=JSON.parse(sds)
         for(let i=0; i<bot.length; i++){
